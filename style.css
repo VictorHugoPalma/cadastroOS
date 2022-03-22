@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap');
+
+/*BASICO*/
+:root{
+    --main-bg-white: #DCE0D9;
+    --main-dark: #1b2029 ;
+
+    --main-title: #31081F;
+    --main-txt: #2c2b2b;
+
+    --link-color: #6B0F1A;
+    --unvisited-link: #476150;
+}
+
+body {
+    background: var(--main-bg-white);
+    color: var(--main-txt);
+    font-weight: 500;
+    text-align: justify;
+    font-family: 'Nunito', sans-serif;
+    padding-right: 25ch;
+    padding-left: 25ch;
+}
+
+/*LINKS*/
+a{
+    text-decoration: none;
+    font-weight: bolder;
+}
+/* unvisited link */
+a:link {
+    color: var(--unvisited-link);
+}
+
+  /* visited link */
+a:visited {
+    color: var(--link-color);
+}
+
+  /* mouse over link */
+a:hover {
+    color: var(--main-dark);
+}
+
+  /* selected link */
+a:active {
+    color: var(--main-dark);
+}
+
+/*TITULO*/
+h1 {
+    font-family: 'Poppins', sans-serif;
+    color: var(--main-title);
+}
